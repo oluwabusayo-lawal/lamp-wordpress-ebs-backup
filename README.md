@@ -41,35 +41,34 @@ This repository demonstrates how to deploy a production-grade WordPress site on 
 
 ## 🗺️ Architecture Diagram  
 
-![Network Diagram](diagrams/network-architecture.png)  
+![Network Diagram](screenshots/arch.png)  
 *Shows public App-server, private DB-server, EBS volumes, and cron backup flow.*  
 
 ---
 
 ## 📂 Repository Structure  
 
-lamp-wordpress-ebs-backup/
-├── LICENSE
-├── README.md
-├── scripts/
-│ ├── user_data_app.sh
-│ ├── user_data_db.sh
-│ └── backup_wp_db.sh
-├── docs/
-│ ├── architecture.md
-│ └── installation.md
-├── diagrams/
-│ └── network-architecture.png
-└── screenshots/
-├── 01-ec2-launch.png
-├── 02-ebs-attached.png
-├── 03-ebs-mounted.png
-├── 04-wordpress-install.png
-└── 05-cron-backup-success.png
+- **lamp-wordpress-ebs-backup/**
+  - `LICENSE`
+  - `README.md`
+  - **scripts/**
+    - `user_data_app.sh`
+    - `user_data_db.sh`
+    - `backup_wp_db.sh`
+  - **docs/**
+    - `architecture.md`
+    - `installation.md`
+  - **diagrams/**
+    - `network-architecture.png`
+  - **screenshots/**
+    - `01-ec2-launch.png`
+    - `02-ebs-attached.png`
+    - `03-ebs-mounted.png`
+    - `04-wordpress-install.png`
+    - `05-cron-backup-success.png`
 
-yaml
-Copy
-Edit
+
+
 
 ---
 
